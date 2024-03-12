@@ -1,0 +1,42 @@
+# this-was-fun
+
+ operand_one = 0.0
+operand_two = 0.0
+sum = 0.0
+diffrence = 0.0
+qoutient = 0.0
+remainder = 0.0
+product = 0.0
+
+operand_one = float(input("enter first number:"))
+operand_two = float(input("enter 2nd number :"))
+sum = operand_one+operand_two 
+print("sum:", sum)
+
+
+
+operand_one = float(input("enter first number:"))
+operand_two = float(input("enter 2nd number :"))
+diffrence = operand_one-operand_two 
+print("diffrece:", diffrence)
+
+
+
+operand_one = float(input("enter first number:"))
+operand_two = float(input("enter 2nd number :"))
+qoutient = operand_one//operand_two 
+print("qoutient:", qoutient)
+
+
+operand_one = float(input("enter first number:"))
+operand_two = float(input("enter 2nd number :"))
+remainder = operand_one%operand_two 
+print("remainder:", remainder)
+
+
+
+
+operand_one = float(input("enter first number:"))
+operand_two = float(input("enter 2nd number :"))
+product = operand_one*operand_two 
+print("product:", product)
